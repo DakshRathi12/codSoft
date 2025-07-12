@@ -20,11 +20,3 @@ show_menu()
 print("\nAdding tasks...")
 for i, task in enumerate(todo_list, 1):
     print(f"{i}. {task}")
-
-print("\nRemoving task 1...")
-todo_list.pop(0)
-
-print("\nFinal To-Do List:")
-for i, task in enumerate(todo_list, 1):
-    print(f"{i}. {task}")
-
